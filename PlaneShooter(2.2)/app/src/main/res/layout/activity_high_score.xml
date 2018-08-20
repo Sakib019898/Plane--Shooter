@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_high_score"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingTop="120dp"
+    android:orientation="vertical"
+    tools:context="com.noobgamers.planeshooter.HighScore"
+    android:background="@drawable/scoreback">
+    <TextView
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="37dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textView2"
+        />
+
+    <TextView
+        android:textColor="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="37dp"
+        android:id="@+id/textView3"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="37dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:id="@+id/textView4"
+        />
+</LinearLayout>
